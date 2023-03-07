@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h2 {
+  margin: 50px;
+}
+
 .container {
   width: 1350px;
   height: 700px;
@@ -13,68 +17,43 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.container .name {
-  color: white;
-}
-.container p {
-  width: 50px;
-  color: white;
-  border: 1px solid white;
-}
 
 .dot-controls {
-  flex-wrap: wrap;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: white;
+  margin: 50px;
 }
 
 .dot {
-  --size: 3rem;
-  --gap: 3rem;
-  --border: 0.25rem;
-  --dur: 200ms;
-  --tf: cubic-bezier(0.215, 0.61, 0.355, 1);
-  --rgb: 30, 144, 255;
-  --color: white;
-  --color-adjacent: rgba(var(--rgb), 0.8);
-  --color-active: rgba(var(--rgb), 1);
-  --color-active-inner: white;
-  flex: 0 0 auto;
-  display: block;
-  position: relative;
+  size: 3rem;
+  color: white;
   cursor: pointer;
-  margin: var(--gap);
-  width: var(--size);
-  height: var(--size);
-  background-color: var(--color);
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
-  transform-origin: 50% 100%;
-  transition: calc(var(--dur) * 2) var(--tf);
-  transition-property: transform, background-color;
-}
-.dot:before {
-  content: "";
-  position: absolute;
-  top: var(--border);
-  left: var(--border);
-  width: calc(100% - var(--border) * 2);
-  height: calc(100% - var(--border) * 2);
-  background-color: var(--color-active-inner);
-  border-radius: inherit;
-  transform: scale(0.001);
-  transition: transform var(--dur) var(--tf);
+  position: relative;
+  background-color: white;
 }
 .dot:hover {
   background-color: yellow;
 }
-.dot.previous, .dot.next {
-  transform: scale(1.25);
-  background-color: var(--color-adjacent);
+
+.content {
+  display: flex;
 }
-.dot.active {
-  transform: scale(1.5);
-  background-color: var(--color-active);
+
+.text {
+  color: white;
+  margin-left: 100px;
 }
-.dot.active:before {
-  transform: scale(1.001);
-  transition-delay: var(--dur);
+.text .name {
+  font-size: 5rem;
+}
+.text .more {
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid white;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
