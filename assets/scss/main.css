@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +12,8 @@
 
 h2 {
   margin: 50px;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
 }
 
 .container1 {
@@ -23,9 +31,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
   color: white;
-  margin: 50px;
 }
 
 .dot {
@@ -49,6 +55,7 @@ h2 {
 .text {
   color: white;
   margin-left: 100px;
+  margin-top: 200px;
 }
 .text .name {
   font-size: 5rem;
@@ -69,7 +76,9 @@ h2 {
 }
 
 .container {
-  width: 350px;
+  width: 50%;
+  height: auto;
+  margin-top: 500px;
 }
 
 .slick-slide {
@@ -78,6 +87,7 @@ h2 {
 
 .slick-slide img {
   width: 150px;
+  vertical-align: bottom;
 }
 
 .slick-slider {
