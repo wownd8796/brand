@@ -11,21 +11,66 @@
 }
 
 h2 {
-  margin: 50px;
+  margin: 50px 0;
   font-family: "Pretendard-Regular";
   font-weight: bold;
 }
 
-.container1 {
-  width: 1350px;
-  height: 700px;
-  background-color: black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+header {
+  width: 80%;
+  margin: 0 auto;
 }
-.container1 .dot-controls {
+
+.container {
+  width: 80%;
+  height: 74vh;
+  padding: 0;
+  background-color: black;
+  display: flex;
+}
+.container .content {
+  width: 90%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 6%;
+}
+.container .content .text {
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.container .content .text .name {
+  font-size: 10rem;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+}
+.container .content .text .more {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  border: 3px solid white;
+  cursor: pointer;
+  width: 100px;
+}
+.container .content .text .more:hover {
+  background-color: white;
+}
+.container .content .text .more a {
+  text-decoration: none;
+  color: white;
+}
+.container .content .text .more a:hover {
+  color: black;
+}
+.container .content .slide {
+  width: 50%;
+}
+.container .dot-controls {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,7 +80,7 @@ h2 {
   height: 700px;
   gap: 10rem;
 }
-.container1 .dot {
+.container .dot-controls .dot {
   color: white;
   cursor: pointer;
   width: 50px;
@@ -44,52 +89,20 @@ h2 {
   position: relative;
   background-color: white;
 }
-.container1 .dot:hover {
+.container .dot-controls .dot:hover {
   background-color: yellow;
 }
-.container1 .content {
-  display: flex;
-}
-.container1 .text {
-  color: white;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  position: fixed;
-  bottom: 160px;
-}
-.container1 .text .name {
-  font-size: 10rem;
-  font-family: "Pretendard-Regular";
-  font-weight: bold;
-}
-.container1 .text .more {
-  margin-top: 20px;
-  text-align: center;
-  align-items: center;
-  border: 2px solid white;
-  cursor: pointer;
-  width: 80px;
-}
-.container1 .slide img {
+.container .slide img {
   width: 150px;
   height: 150px;
 }
-.container1 .container {
-  width: 50%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-.container1 .slick-slide {
+.container .slick-slide {
   margin: 0px 20px;
 }
-.container1 .slick-slide img {
+.container .slick-slide img {
   vertical-align: bottom;
 }
-.container1 .slick-slider {
+.container .slick-slider {
   position: relative;
   display: block;
   box-sizing: border-box;
@@ -102,64 +115,64 @@ h2 {
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
 }
-.container1 .slick-list {
+.container .slick-list {
   position: relative;
   display: block;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-.container1 .slick-list:focus {
+.container .slick-list:focus {
   outline: none;
 }
-.container1 .slick-slider .slick-track,
-.container1 .slick-slider .slick-list {
+.container .slick-slider .slick-track,
+.container .slick-slider .slick-list {
   transform: translate3d(0, 0, 0);
 }
-.container1 .slick-track {
+.container .slick-track {
   position: relative;
   top: 0;
   left: 0;
 }
-.container1 .slick-track:before,
-.container1 .slick-track:after {
+.container .slick-track:before,
+.container .slick-track:after {
   display: table;
   content: "";
 }
-.container1 .slick-track:after {
+.container .slick-track:after {
   clear: both;
 }
-.container1 .slick-loading .slick-track {
+.container .slick-loading .slick-track {
   visibility: hidden;
 }
-.container1 .slick-slide {
+.container .slick-slide {
   display: none;
   float: left;
   height: 100%;
   min-height: 1px;
 }
-.container1 [dir=rtl] .slick-slide {
+.container [dir=rtl] .slick-slide {
   float: right;
 }
-.container1 .slick-slide img {
+.container .slick-slide img {
   display: block;
 }
-.container1 .slick-slide.slick-loading img {
+.container .slick-slide.slick-loading img {
   display: none;
 }
-.container1 .slick-slide.dragging img {
+.container .slick-slide.dragging img {
   pointer-events: none;
 }
-.container1 .slick-initialized .slick-slide {
+.container .slick-initialized .slick-slide {
   display: block;
 }
-.container1 .slick-loading .slick-slide {
+.container .slick-loading .slick-slide {
   visibility: hidden;
 }
-.container1 .slick-vertical .slick-slide {
+.container .slick-vertical .slick-slide {
   display: block;
   border: 1px solid transparent;
 }
-.container1 .slick-arrow.slick-hidden {
+.container .slick-arrow.slick-hidden {
   display: none;
 }/*# sourceMappingURL=main.css.map */

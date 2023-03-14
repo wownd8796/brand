@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "hermes": {
+        "name": "HERMES",
+        "images": [
+          "./assets/image/hermes/hermes1.jpg",
+          "./assets/image/hermes/hermes2.jpg",
+          "./assets/image/hermes/hermes3.webp",
+          "./assets/image/hermes/hermes4.webp",
+          "./assets/image/hermes/hermes-logo.svg"
+        ]
+      },
+      "chanel": {
+        "name": "CHANEL",
+        "images": [
+          "./assets/image/chanel/coco.webp",
+          "./assets/image/chanel/chanelhouse.webp",
+          "./assets/image/chanel/chanelhouse2.webp"
+        ]
+      },
+      "dior": {
+        "name": "DIOR",
+        "images": ["url"]
+      },
+      "louis": {
+        "name": "LOUIS VUITTON",
+        "images": ["url"]
+      }
+    }
+  ]
+}
