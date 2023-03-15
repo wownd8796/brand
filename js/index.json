@@ -21,11 +21,21 @@
       },
       "dior": {
         "name": "DIOR",
-        "images": ["url"]
+        "images": [
+          "./assets/image/dior/dior.jpg",
+          "./assets/image/dior/diorshop.webp",
+          "./assets/image/dior/lady.png",
+          "./assets/image/dior/montaigne.webp"
+        ]
       },
       "louis": {
         "name": "LOUIS VUITTON",
-        "images": ["url"]
+        "images": [
+          "./assets/image/louis/Louis-Vuitton.jpg",
+          "./assets/image/louis/louisshop.jpg",
+          "./assets/image/louis/capucines.webp",
+          "./assets/image/louis/twist.webp"
+        ]
       }
     }
   ]
