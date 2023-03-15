@@ -16,7 +16,9 @@
         "images": [
           "./assets/image/chanel/coco.webp",
           "./assets/image/chanel/chanelhouse.webp",
-          "./assets/image/chanel/chanelhouse2.webp"
+          "./assets/image/chanel/chanelhouse2.webp",
+          "./assets/image/chanel/classic1.webp",
+          "./assets/image/chanel/coco.webp"
         ]
       },
       "dior": {
