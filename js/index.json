@@ -1,44 +1,42 @@
 {
-  "data": [
-    {
-      "hermes": {
-        "name": "HERMES",
-        "images": [
-          "./assets/image/hermes/hermes1.jpg",
-          "./assets/image/hermes/hermes2.jpg",
-          "./assets/image/hermes/hermes3.webp",
-          "./assets/image/hermes/hermes4.webp",
-          "./assets/image/hermes/hermes-logo.svg"
-        ]
-      },
-      "chanel": {
-        "name": "CHANEL",
-        "images": [
-          "./assets/image/chanel/coco.webp",
-          "./assets/image/chanel/chanelhouse.webp",
-          "./assets/image/chanel/chanelhouse2.webp",
-          "./assets/image/chanel/classic1.webp",
-          "./assets/image/chanel/coco.webp"
-        ]
-      },
-      "dior": {
-        "name": "DIOR",
-        "images": [
-          "./assets/image/dior/dior.jpg",
-          "./assets/image/dior/diorshop.webp",
-          "./assets/image/dior/lady.png",
-          "./assets/image/dior/montaigne.webp"
-        ]
-      },
-      "louis": {
-        "name": "LOUIS VUITTON",
-        "images": [
-          "./assets/image/louis/Louis-Vuitton.jpg",
-          "./assets/image/louis/louisshop.jpg",
-          "./assets/image/louis/capucines.webp",
-          "./assets/image/louis/twist.webp"
-        ]
-      }
+  "data": {
+    "hermes": {
+      "name": "HERMES",
+      "images": [
+        "./assets/image/hermes/hermes1.jpg",
+        "./assets/image/hermes/hermes2.jpg",
+        "./assets/image/hermes/hermes3.webp",
+        "./assets/image/hermes/hermes4.webp",
+        "./assets/image/hermes/hermes-logo.svg"
+      ]
+    },
+    "chanel": {
+      "name": "CHANEL",
+      "images": [
+        "./assets/image/chanel/coco.webp",
+        "./assets/image/chanel/chanelhouse.webp",
+        "./assets/image/chanel/chanelhouse2.webp",
+        "./assets/image/chanel/classic1.webp",
+        "./assets/image/chanel/coco.webp"
+      ]
+    },
+    "dior": {
+      "name": "DIOR",
+      "images": [
+        "./assets/image/dior/dior.jpg",
+        "./assets/image/dior/diorshop.webp",
+        "./assets/image/dior/lady.png",
+        "./assets/image/dior/montaigne.webp"
+      ]
+    },
+    "louis": {
+      "name": "LOUIS VUITTON",
+      "images": [
+        "./assets/image/louis/Louis-Vuitton.jpg",
+        "./assets/image/louis/louisshop.jpg",
+        "./assets/image/louis/capucines.webp",
+        "./assets/image/louis/twist.webp"
+      ]
     }
-  ]
+  }
 }
