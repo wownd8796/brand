@@ -17,7 +17,7 @@
         "./assets/image/chanel/chanelhouse.webp",
         "./assets/image/chanel/chanelhouse2.webp",
         "./assets/image/chanel/classic1.webp",
-        "./assets/image/chanel/coco.webp"
+        "./assets/image/chanel/2.55.1.webp"
       ]
     },
     "dior": {
@@ -25,8 +25,9 @@
       "images": [
         "./assets/image/dior/dior.jpg",
         "./assets/image/dior/diorshop.webp",
-        "./assets/image/dior/lady.png",
-        "./assets/image/dior/montaigne.webp"
+        "./assets/image/dior/diorshop2.webp",
+        "./assets/image/dior/lady.jpg",
+        "./assets/image/dior/montaigne.jpg"
       ]
     },
     "louis": {
@@ -34,8 +35,8 @@
       "images": [
         "./assets/image/louis/Louis-Vuitton.jpg",
         "./assets/image/louis/louisshop.jpg",
-        "./assets/image/louis/capucines.webp",
-        "./assets/image/louis/twist.webp"
+        "./assets/image/louis/capucines.jpg",
+        "./assets/image/louis/twist.jpg"
       ]
     }
   }

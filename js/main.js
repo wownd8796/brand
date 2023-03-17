@@ -4,29 +4,41 @@ fetch("./js/index.json")
 
 function callback(bag) {
   const elDot = document.querySelectorAll(".dot"),
-    slider = document.querySelector(".customer-logos");
-  console.log(slider);
-  console.log(elDot);
+    slider = document.querySelector(".slide"),
+    elText = document.querySelector(".text");
+
   let bags = bag.data;
-  console.log(bags.chanel.images);
+
+
+  function changeData(name) {
+    let data = bag.data[name];
+    elText.innerHTML = `<div class="name">${data.name}</div>
+                      <div class="more">
+                        <a href="./pages/hermes/history.html">MORE</a>
+                      </div>`;
+
+    let section = "";
+    section = '<section class="customer-logos slider">';
+    data.images.forEach((url) => {
+      section += ` <div class="slide">
+                                <img src="${url}" />
+                              </div>`;
+    });
+    section += "</section>";
+
+    slider.innerHTML = section;
+
+    slideFn();
+  }
 
   elDot.forEach((dot, i) => {
     dot.addEventListener("click", () => {
-      const ttt = bags.chanel.images;
-
-      console.log("hhhh");
-      slider.innerHTML = "";
-      console.log(ttt);
-      ttt[0].forEach((o, k) => {
-        slider.innerHTML += `<div class="slide">
-        <img src="${o}" />
-      </div>`;
-      });
+      changeData(dot.dataset.name);
     });
   });
 }
 
-$(document).ready(function () {
+function slideFn() {
   $(".customer-logos").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -50,4 +62,4 @@ $(document).ready(function () {
       },
     ],
   });
-});
+}

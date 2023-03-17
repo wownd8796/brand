@@ -14,7 +14,7 @@
 header {
   width: 80%;
   margin: 0 auto;
-  h2 {
+  h1 {
     margin: 50px 0;
     font-family: "Pretendard-Regular";
     font-weight: bold;
@@ -26,20 +26,26 @@ header {
   padding: 0;
   background-color: black;
   // display: flex;
-  h3 {
+  h2 {
     color: white;
     text-align: center;
+    font-family: "Pretendard-Regular";
   }
   .content {
     width: 100%;
     display: flex;
 
+    align-items: center;
+    justify-content: center;
     .photo {
       width: 50%;
+
+      text-align: center;
+      justify-content: center;
+      background-color: aqua;
       img {
         width: 500px;
         height: 500px;
-        
       }
     }
     .info {
